@@ -11,6 +11,7 @@ Packet Tracer lab that recreates a small campus network from scratch. The design
   * 1 PC directly on R2  
   * 1 PC directly on R3  
 
+![Network Topology](./Screenshot_20250422_014409.png)
 
 ## Addressing & VLAN Plan
 
