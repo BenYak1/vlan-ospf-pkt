@@ -2,6 +2,7 @@
 Packet Tracer lab that recreates a small campus network from scratch. The design demonstrates Layer‑2 and Layer‑3 fundamentals, dynamic routing, network services and basic device hardening—skills expected from a junior system / network administrator.
 
 
+
 ## Topology
 
 * **Routers:** 3 × Cisco 2911 in a linear chain (R1 ↔ R2 ↔ R3)  
@@ -12,6 +13,7 @@ Packet Tracer lab that recreates a small campus network from scratch. The design
   * 1 PC directly on R3  
 
 ![Network Topology](Screenshots/Screenshot_20250422_014409.png)
+
 
 ## Addressing & VLAN Plan
 
@@ -30,6 +32,7 @@ Packet Tracer lab that recreates a small campus network from scratch. The design
 * 802.1Q trunk between switch and R1, access ports per VLAN.  
 * R1 sub‑interfaces act as default gateways (Router‑on‑a‑Stick).
 
+
 ## Key Features Implemented
 
 * **Dynamic Routing:** Single‑area OSPFv2 with precise wildcard masks; full convergence verified.  
@@ -42,7 +45,9 @@ Packet Tracer lab that recreates a small campus network from scratch. The design
 
 
 
-# Configuration Snapshots
+
+
+# Configuration Screenshots
 
 ## VLAN & Trunk Configuration
 Shows creation of VLANs 10–40 and proper trunking between switch and R1.
