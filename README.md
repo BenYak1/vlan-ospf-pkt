@@ -42,37 +42,37 @@ Packet Tracer lab that recreates a small campus network from scratch. The design
 
 
 
-##Configuration Snapshots
+## Configuration Snapshots
 
-#VLAN & Trunk Configuration
+# VLAN & Trunk Configuration
 Shows creation of VLANs 10–40 and proper trunking between switch and R1.
 Ports Fa0/1–Fa0/8 are assigned as access ports to HR, IT, DevOps, and Sales VLANs.
 
 ![vlan](Screenshots/showvlanbrief.png)
 ![trunk](Screenshots/showinterfacestrunk.png)
 
-#R1 Subinterfaces (Router-on-a-Stick)
+# R1 Subinterfaces (Router-on-a-Stick)
 Encapsulation and gateway IPs defined per VLAN on R1.
 
 ![subints](Screenshots/subints.png)
 
-#DHCP Bindings
+# DHCP Bindings
 Demonstrates successful IP assignment to VLAN hosts from router-based DHCP pools.
 
 ![DHCP](Screenshots/showipdhcpbinding.png)
 
-#Security Hardening
+# Security Hardening
 Includes encrypted enable secret and custom login banner on R1.
 
 ![Motd_secret](Screenshots/motd_secret.png)
 
-#OSPF Neighbor Adjacency & Routing Tables
+# OSPF Neighbor Adjacency & Routing Tables
 Full adjacency and routing across R1–R2–R3 using OSPF.
 
 ![OSPF](Screenshots/ospfR2.png)
 ![OSPF](Screenshots/ospfR3.png)
 
-#End-to-End Connectivity
+# End-to-End Connectivity
 PC1 pings PC in another VLAN, PC9 (R2), and PC10 (R3). Routing confirmed.
 
 ![ping](Screenshots/pingPC1.png)
