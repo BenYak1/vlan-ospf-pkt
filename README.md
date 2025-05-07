@@ -1,6 +1,5 @@
 ## Overview
-Packet Tracer lab that recreates a small campus network from scratch. The design demonstrates Layer‑2 and Layer‑3 fundamentals, dynamic routing, network services and basic device hardening—skills expected from a junior system / network administrator.
-
+Packet Tracer lab that recreates a small campus network from scratch. The design demonstrates Layer‑2 and Layer‑3 fundamentals, dynamic routing, network services and basic device hardening.
 
 
 ## Topology
